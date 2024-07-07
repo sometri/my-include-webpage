@@ -1,0 +1,19 @@
+get data to github/or push data from pc to github
+======================
+cd C:\xampp\htdocs\mystudy\include-webpage
+git init
+———————————————-
+git add .
+———————————————-
+git commit -m "Initial commit"
+———————————————-
+git remote add origin git@github.com:sometri/include-webpage.git
+———————————————-
+git push -u origin master
+or
+git push -u origin min
+========================
+to re-push to github
+git add .
+git commit -m "Second push"
+git push origin main
